@@ -1,0 +1,7 @@
+---
+workflow:
+  steps:
+    - branch_package:
+        source_project: home:dancermak:branches:Virtualization:containers
+        source_package: obs-service-replace_using_package_version
+        target_project: home:dancermak:Virtualization:containers
